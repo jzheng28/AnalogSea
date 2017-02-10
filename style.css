@@ -1,0 +1,89 @@
+body{
+background-color: #298EEA;
+font-family:helvetica, Arial, Sans-serif;
+}
+
+.logo{ /* AnalogSea image */
+display:block;
+margin:0 auto 0 auto;
+padding-top:30px;
+padding-bottom:30px;
+height: 35px;
+
+}
+
+form{
+	background-color:white;
+	height:400px;
+	width: 320px;
+	margin:0 auto 0 auto;
+	display:block;
+	padding: 20px 40px 20px 40px;
+
+}
+
+form h1{ /* Sign up text */
+	text-align: center;
+	font-weight: lighter;
+}
+
+form label, form button, form input, form h6{
+	margin:auto;
+	display: block;
+}
+
+form input{ /* Text boxes */
+	width:286px;
+	border: 2px solid #efefef;
+	padding: 15px;
+	text-align:left;
+	font-size:15px;
+}
+
+
+form label{
+	margin: 20px 0 20px 0;
+	
+	text-align:left;
+}
+	
+
+form button{
+
+	display:block;
+	font-size: 15px;
+	color:white;
+	background-color:#68C373;
+	margin: 15px auto 15px auto;
+	width:320px;
+	height:53px;
+	border:2px solid #68C373;
+	padding:15px;
+	font-weight: bold;
+
+	}
+
+form button:hover {
+    background-color: #4CAF50; /* Dark green */
+    border:2px solid #4CAF50;
+    
+}
+
+h6{ /* forgot password text */
+	color:#cdcdcd;
+	font-weight:bolder;
+	line-height: 20px;
+	text-align:center;
+}
+
+p{ /* create account text */
+	color:white;
+	font-weight:bold;
+	text-align:center;
+	font-size:15px;
+}
+
+
+
+
+
